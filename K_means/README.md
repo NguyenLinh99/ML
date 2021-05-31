@@ -16,5 +16,6 @@
 - Run file k_means.py:
 	            python3 k_means.py
 - Visualize kết quả:
-	![visual](https://user-images.githubusercontent.com/58722328/120157034-c8e11880-c21c-11eb-8d2c-468d8fcb8f0e.png)
+	![visual](https://user-images.githubusercontent.com/58722328/120157182-eca45e80-c21c-11eb-979c-edfd5cd3ec7e.png)
+
 
