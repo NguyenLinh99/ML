@@ -10,7 +10,7 @@
   - Tại một thời điểm, giả sử, boundary cần tìm có phương trình:
                   f = w1x1 + w2x2 + w3x3 + ... + wnxn + w0
     - Ví dụ, trong không gian 2 chiều, boundary cần tìm là một đường thẳng như sau:
-    ![alt text](PLA/pla.png)
+    ![plot](https://github.com/NguyenLinh99/ML/blob/master/PLA/pla.png)
     => Các điểm nằm về cùng 1 phía so với đường thẳng này sẽ làm cho hàm số f mang cùng dấu. Giả sử các điểm nằm trong nửa mặt phẳng nền xanh mang dấu dương (+), các điểm nằm trong nửa mặt phẳng nền đỏ mang dấu âm (-). Các dấu này cũng tương đương với nhãn y (+1, -1)của mỗi class. 
     - Nếu w là một nghiệm của bài toán Perceptron, với một điểm dữ liệu mới x chưa được gán nhãn, công thức xác định class của nó như sau:
                     label(x) = 1 nếu f=wX > 0, otherwise -1
@@ -39,7 +39,7 @@
 - Run file pla.py
 	                  python3 pla.py
 - Visualize kết quả:
-  ![alt text](PLA/pla_vis.gif)
+  ![plot](https://github.com/NguyenLinh99/ML/blob/master/PLA/pla_vis.gif)
 
 ## Chú ý.
 - Chỉ thực hiện thuật toán PLA khi dữ liệu là linear separable, tức là các điểm của hai lớp không giao nhau. Dữ liệu trên thực tế thường hiếm khi linearly separable là một hạn chế của Perceptron, tuy nhiên Perceptron vẫn là nền tảng cho các thuật toán Neural Network hay Deep Learning sau này.
