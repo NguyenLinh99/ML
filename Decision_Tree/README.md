@@ -3,7 +3,7 @@
 ## Một số khái niệm cơ bản liên quan đến Decision Tree.
 - Decision Tree là một thuật toán học máy có thể thực hiện được cả 2 tác vu phân loại (classify) và hồi quy (regression)
 - Cây quyết định cho bài toán phân loại hoa Iris theo sklearn
-![Screenshot](Decision_Tree/iris_tree.png)
+![alt tag](https://github.com/linhtinhlinhta/ML/blob/master/Decision_Tree/iris_tree.png)
 - Ý tưởng cây Quyết định phân loại:
     Giả sử ta cần phân loại một bông hoa Iris. Hãy bắt đầu từ nút gốc (ở trên cùng). Nút này kiểm tra liệu chiều dài cánh hoa (pental length) <= 2.45 hay không?
     - Nếu TRUE, đi xuống nút con trái của nút gốc, trong TH này thì nó là một nút lá (không có nút con). Cây quyết định dự đoán nó thuộc lớp sentosa (class = sentosa)
